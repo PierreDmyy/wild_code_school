@@ -1,0 +1,81 @@
+body{
+    font-size:1.3em 
+}
+.faq {
+    background-image: url(img/bg_dark.png);
+}
+.container {
+    background-image: url(img/bg_light.png);
+    padding-left: 0;
+    padding-right: 0;
+}
+.card-header {
+    background-color: #ff5f01;
+}
+.army {
+    width: 350px;
+    height: 250px;
+}
+.need-you {
+    width: 350px;
+    height: 250px;
+}
+.map {
+    width: 150px;
+    height: 310px;
+    margin-top: 70px;
+}
+.form-control {
+    padding: .375rem 10.75rem;
+}
+form {
+    margin-top: 70px;
+}
+footer {
+    background-color: #ff5f01;
+}
+.navbar {
+    background-color: #ff5f01;
+}
+.navbar-nav {
+    padding-left: 250px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+/* Footer */
+
+footer {
+    background-color: var(--orange);
+}
+
+footer ul {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+footer ul li {
+    list-style-type: none;
+}
+
+label {
+     visibility: hidden;
+     font-size: 0.1em;
+     line-height: 0.1em;
+ }
+
+ .form-group {
+     margin-bottom: 0;
+ }
+
+ /* Contact us*/
+
+option, 
+input,
+textarea,
+select {
+    font-family: Aniron;
+}
+
+.contact .btn {
+    margin: 1.5em;
+}
