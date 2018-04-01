@@ -1,1 +1,1 @@
-## Wild_exercices
+# Wild_Code_School_exercises
