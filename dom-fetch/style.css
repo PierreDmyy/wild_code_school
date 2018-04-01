@@ -1,0 +1,10 @@
+.btn-primary {
+  color: #fff;
+  background-color: #00b837;
+  border-color: #00b837;
+  margin-left: 500px;
+}
+.input:required {
+    font-style: underline;
+    color: red;
+ }
