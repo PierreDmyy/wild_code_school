@@ -1,0 +1,166 @@
+h1,
+h4 {
+    font-family: alwyn-new-web, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: alwyn-new-web, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.carousel-wild-title {
+    font-size: 5em;
+    color: #f9a02e;
+    font-weight: bold;
+    text-shadow: -2px 2px 5px #000;
+}
+@media (min-width: 437px) and (max-width: 525px) {
+    .carousel-caption {
+        font-size: 3px;
+     }
+     }
+@media screen and (max-width: 510px) {
+    .carousel-caption {
+        font-size: 3px;
+     }
+     }
+
+@media only screen and (max-device-width: 768px) and (orientation: landscape) {
+    .carousel-caption {
+        font-size: 10px;
+     }
+     }
+     @media only screen and (max-device-width: 992px) and (orientation: landscape) {
+        .carousel-caption {
+            font-size: 10px;
+         }
+         }
+    
+     .carousel-wild-description {
+        font-size: 3.5em;
+        color: white;
+        font-weight: bold;
+        text-shadow: -2px 2px 5px #000;
+    }
+    .info-header {
+        width: 50%;
+        margin: auto;
+        border-bottom: 1px #ddd solid;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 50px;
+        height: 50px;
+    }
+    .card-body a {
+        color: orange;
+    }
+    .btn-warning {
+        color: white;
+    }
+    .card:hover .btn-warning {
+        background: white;
+        color: orange;
+    }
+    .card:hover {
+        background: orange;
+        color: white;
+    }
+    .fa-linkedin-in:hover {
+        background-color: #0077b5;
+        color: white;
+    }
+    .fa-github:hover {
+        background-color: #6c757d;
+        color: white;
+    }
+    .fa-envelope:hover {
+        background-color: #0077b5;
+        color: white;
+    }
+    a>.rounded-circle {
+        font-size: 2em;
+        background: white;
+        padding: 0.3em;
+    }
+    .card {
+        box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.5);
+    }
+    h5 {
+        height: 48px;
+    }
+    .card-body .taille {
+        height: 120px;
+    }
+    .card-footer {
+        color: black;
+    }
+    footer .rounded-circle {
+        background: white;
+        color: #498b84;
+    }
+    footer .rounded-circle:hover {
+        background: #498b84;
+        color: white;
+    }
+    .modal-header {
+        background: orange;
+        border-radius: 0px;
+    }
+    .modal-title {
+        color: white;
+    }
+    .nav-link:hover {
+        color: orangered;
+    }
+    .image {
+        margin-top: -87px;
+        box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.5);
+    }
+    .list-group-item {
+        border: none;
+    }
+    .list-group>a {
+        color: #80cbc4;
+        text-decoration: none;
+    }
+    .list-group>a:hover {
+        color: #498b84;
+    }
+    span {
+        font-style: italic;
+    }
+    .bg {
+        background: #35383a;
+    }
+    footer h5 {
+        color: white;
+        font-size: 1.5em;
+    }
+    footer .copyright {
+        color: white;
+    }
+    .image-footer {
+        height: 144px;
+        width: 144px;
+        margin-top: -72px;
+    }
+    footer .btn-primary {
+        background: white;
+        color: #498b84;
+        border-color: #498b84;
+    }
+    footer .btn-primary:hover {
+        background: #498b84;
+        border-color: #498b84;
+    }
+    footer .btn-primary:hover a {
+        text-decoration: none;
+    }
