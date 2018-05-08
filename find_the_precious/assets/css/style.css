@@ -1,0 +1,275 @@
+/** Fonts **/
+
+@font-face {
+	font-family: "Tengwarc";
+	src: url("../fonts/Tengwar_Cursive/Tengwarc.ttf") format("truetype"), url("../fonts/Tengwar_Cursive/Tengwarc.woff") format("woff"), url("../fonts/Tengwar_Cursive/Tengwarc.oet?") format("eot"), url("../fonts/Tengwar_Cursive/Tengwarc.svg#TengwarCursive") format("svg");
+}
+
+@font-face {
+	font-family: "AniCB";
+	src: url("../fonts/anicb___.ttf");
+}
+
+@font-face {
+	font-family: "AniCM";
+	src: url("../fonts/anicm___.ttf");
+}
+
+@font-face {
+	font-family: "AniRB";
+	src: url("../fonts/anirb___.ttf");
+}
+
+@font-face {
+	font-family: "AniRM";
+	src: url("../fonts/anirm___.ttf");
+}
+
+@font-face {
+	font-family: "Party Business";
+	src: url("../fonts/partybusiness.ttf");
+}
+
+.font-tengwarc {
+	font-family: "Tengwarc";
+}
+
+.font-anicb {
+	font-family: "AniCB";
+}
+
+.font-anicm {
+	font-family: "AniCM";
+}
+
+.font-anirb {
+	font-family: "AniRB";
+}
+
+.font-anirm {
+	font-family: "AniRM";
+}
+
+.font-party-business {
+	font-family: "Party Business";
+	font-size: 20px;
+}
+
+/** Général **/
+
+body {
+	background: lightgray;
+}
+
+.container:not(.fixed-top) {
+	margin-top: 60px;
+}
+
+/** Navbar **/
+
+.bg-orange {
+	background-color: #ff5f01;
+}
+
+.navbar .nav-item.active {
+	border-bottom: 2px solid white;
+}
+
+.text-orange {
+	color: #FF5F01;
+}
+
+/**Caroussel **/
+
+.w-100 {
+	height: 400px;
+}
+
+/** Section **/
+
+section {
+	padding: 30px;
+	background-image: url(../img/integration/bg_light.png);
+}
+
+section.inversed {
+	background-image: url(../img/integration/bg_dark.png);
+	position: relative;
+}
+
+section.inversed h3 {
+	color: white;
+}
+
+section.inversed:before,
+section.inversed:after {
+	position: absolute;
+	width: 50%;
+	content: "";
+	left: 25%;
+	height: 4px;
+	background-color: #ff5f01;
+}
+
+section.inversed:before {
+	top: 0;
+}
+
+section.inversed:after {
+	bottom: 0;
+}
+
+/** About the ring **/
+
+.about-card {
+	border-bottom: 2.5px solid #FF5F01;
+}
+
+.about-card-title {
+	padding: 15px;
+	background: #FF5F01;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	color: white;
+}
+
+.about-card-body {
+	background: #dddddd;
+	padding: 15px;
+}
+
+/** More info **/
+
+.more-info span {
+	color: #FF5F01;
+	font-size: 2rem;
+}
+
+.more-info a {
+	display: block;
+	background: #333333;
+	color: #FF5F01;
+	padding: 15px;
+	font-weight: bold;
+}
+
+/** Footer **/
+
+footer ul {
+	list-style: none;
+	color: white;
+}
+
+footer a {
+	color: inherit !important;
+}
+
+/** Thumbs fellows **/
+
+.thumbs-tabs {
+	display: flex;
+	margin-bottom: 15px;
+	justify-content: center;
+	font-weight: bold;
+}
+
+@media (max-width: 768px) {
+	.thumbs-tabs {
+		flex-direction: column;
+	}
+}
+
+.thumbs-tab-item {
+	padding: 10px;
+	color: gray;
+	cursor: pointer;
+}
+
+.thumbs-tab-item.active {
+	border-bottom: 2px solid #FF5F01;
+	color: #FF5F01;
+}
+
+.thumbs-box {
+	border: 2.5px solid black;
+	position: relative;
+}
+
+.thumbs-box img {
+	width: 100%;
+}
+
+.thumbs-box .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.thumbs-box .overlay.reward .title {
+	width: 100%;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.75);
+	text-align: center;
+}
+
+.thumbs-box .overlay.dead .title {
+	color: #FF5F01;
+	font-size: 2rem;
+	text-align: center;
+	transition: all 0.5s ease;
+}
+
+.thumbs-box .overlay .name {
+	text-align: center;
+	margin-top: 15px;
+	color: white;
+	font-size: 2rem;
+	transition: all 0.5s ease;
+}
+
+.thumbs-box-content-item.description {
+	padding: 10px;
+	color: white;
+	background: black;
+}
+
+.thumbs-box:hover .overlay .title {
+	opacity: 0;
+}
+
+.thumbs-box:hover .overlay .name {
+	margin-top: 100px;
+	font-size: 1rem;
+}
+
+.hunter-name {
+	font-family: "Party Business";
+	font-size: 2rem;
+	color: #FF5F01;
+}
+
+.mbs-1 {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.mbs-1:hover {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.mbs-2 {
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.mbs-3 {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.mbs-4 {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.mbs-5 {
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
